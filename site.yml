@@ -3,7 +3,7 @@ Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: dfox-hello-world,
+      BucketName: dfox-hello-world
       AccessControl: PublicRead
       WebsiteConfiguration:
         IndexDocument: index.html
